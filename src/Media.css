@@ -1,0 +1,210 @@
+@media (max-width: 1024px) {
+  .container__card {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 10px;
+    justify-content: center;
+    display: flex;
+  }
+  .autocomplete {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+  }
+  .card__grid {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px 20px;
+    margin: 10px;
+  }
+  .card__img {
+    width: 160px;
+    height: auto;
+  }
+  .card {
+    transition: transform 400ms ease-in-out;
+    width: 160px;
+  }
+  .anime__card {
+    width: 160px;
+  }
+  .name__anime {
+    font-size: 15px;
+  }
+
+  .video__container {
+    display: block;
+  }
+  .board__series {
+    margin-top: 50px;
+    display: flex;
+  }
+  .dropdown {
+    margin-top: 50px;
+  }
+  .align {
+    display: flex;
+  }
+  .plyr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video__container{
+    max-width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .container__card {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 10px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .search.active {
+    width: 300px;
+  }
+  .autocomplete {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+  }
+  .card__grid {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+    margin: 10px;
+  }
+
+  .card__img {
+    width: 180px;
+    height: auto;
+  }
+  .card {
+    transition: transform 400ms ease-in-out;
+    width: 180px;
+  }
+  .anime__card {
+    width: 180px;
+  }
+  .name__anime {
+    font-size: 15px;
+  }
+  #hello {
+    font-size: 40px;
+  }
+}
+@media (max-width: 460px) {
+  .anime__preview {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .anime__info {
+    display: grid;
+  }
+  .anime__title {
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    order: 1;
+  }
+  .anime__banner {
+    background: #242424;
+    width: 243px;
+    height: 343px;
+    border-radius: 20px;
+    order: 2;
+  }
+  .anime__info__more {
+    order: 3;
+  }
+  .container__card {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 10px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .autocomplete {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .search.active {
+    width: 180px;
+  }
+  .card__img {
+    width: 160px;
+    height: auto;
+  }
+  .card {
+    transition: transform 400ms ease-in-out;
+    width: 160px;
+  }
+  .card__grid {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+  }
+  .anime__card {
+    width: 160px;
+  }
+  #hello {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 340px) {
+  .autocomplete {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .search.active {
+    width: 160px;
+  }
+  .card {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container__card {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 10px;
+    justify-content: center;
+    display: flex;
+  }
+  .card__grid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px;
+    width: 200px;
+  }
+  .card__img {
+    width: 200px;
+    height: auto;
+  }
+  .anime__card {
+    width: 200px;
+  }
+  .name__anime {
+    font-size: 15px;
+  }
+
+  #hello {
+    font-size: 20px;
+  }
+}

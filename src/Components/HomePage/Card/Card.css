@@ -1,0 +1,40 @@
+.card{
+  transition: transform 400ms ease-in-out;
+  width: 175px;
+}
+.card__img {
+  border-radius: 12px;
+  width: 175px;
+  height: 250px;
+  margin-bottom: 5px;
+  max-width: auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+.card__img__skeleton{
+  background: linear-gradient(48deg, rgba(118,157,168,0.5203488372093024) 0%, rgba(30,54,69,0.5145348837209303) 63%);
+  animation: gradient 8s infinite linear;
+  background-size: 500%; 
+  width: 175px;
+  height: 250px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+@keyframes gradient {
+  0% {
+      background-position: 80% 0%;
+  }
+  50% {
+      background-position: 20% 100%;
+  }
+  100% {
+      background-position: 80% 0%;
+  }
+}
+.name__anime {
+  font-size: 14px;
+  padding-left: 5px;
+}
+.card:hover{
+  transform: scale(1.07);
+}

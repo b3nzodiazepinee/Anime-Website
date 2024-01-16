@@ -1,0 +1,68 @@
+.anime__preview {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .anime__banner {
+    background: #242424;
+    width: 243px;
+    height: 343px;
+    border-radius: 20px;
+    
+  }
+  .anime__info {
+    padding-left: 20px;
+  }
+  
+  .anime__title {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 3px;
+
+  }
+
+  .anime__info__list {
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  
+  .anime__original__title {
+    color: #b3b3b3;
+  }
+  
+  .watch {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #fffffff4;
+    color: black;
+    border-radius: 10px;
+  
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 243px;
+  }
+  
+  .main__description {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .AnimePage #center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    align-items: center;
+    height: 80vh;
+  }
+ .anime__previev{
+  width: auto;
+  height: 60px;
+ }

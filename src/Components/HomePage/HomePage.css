@@ -1,0 +1,22 @@
+.container__card {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.card__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px 20px;
+  margin: 10px;
+}
+.autocomplete {
+  background-color: #121212;
+  position: absolute;
+  z-index: 3;
+  top: 66px;
+  width: 400px;
+  align-items: center;
+  max-height: 240px;
+  overflow: auto;
+  border-radius: 10px;
+}

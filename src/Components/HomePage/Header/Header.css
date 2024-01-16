@@ -1,0 +1,33 @@
+.header {
+  border-bottom: 2px solid #242424;
+  background: #121212;
+}
+.header__row {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: inherit;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+.header__nav {
+  display: inherit;
+}
+.header__nav ul {
+  display: inherit;
+  column-gap: 50px;
+  align-items: center;
+}
+.header__nav li {
+  width: 24px;
+  height: 24px;
+}
+.header__nav .nav__profile {
+  width: 32px;
+  height: 32px;
+}
